@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+            android:src="@drawable/bitserviceslogo"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:id="@+id/imageView5"
+    />
+    <TextView
+            android:text="@string/contractorUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_marginTop="50dp"
+            android:labelFor="@+id/etContractorUsername"
+            android:layout_gravity="center"
+            android:textColor="@color/bitBlue"
+            android:layout_weight="0.00"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/etContractorUsername"
+            android:hint="@string/enterUsername"
+            android:textColor="#163b58"
+            android:textColorHighlight="@color/bitRed"
+            android:textColorHint="@color/bitRed"/>
+
+    <TextView
+            android:text="@string/password"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/bitBlue"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="@string/enterPassword"
+            android:textColor="@color/bitRed"
+            android:id="@+id/etContractorPassword"
+            android:textColorHint="@color/bitRed"/>
+
+    <Button
+            android:text="@string/signIn"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnContractorLogin"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@color/bitBlue"/>
+</LinearLayout>

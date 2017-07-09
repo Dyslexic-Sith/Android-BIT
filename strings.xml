@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BITServices</string>
+    <string name="username">Client Username:</string>
+    <string name="enterUsername">Enter Username here</string>
+    <string name="password">Password:</string>
+    <string name="enterPassword">Enter Password here</string>
+    <string name="contractorUsername">Contractor Username:</string>
+    <string name="signIn">Sign In</string>
+    <string name="clientLogin">Client Login</string>
+    <string name="contractorLogin">Contractor Login</string>
+    <string name="skill">Please select the skill needed for the job:</string>
+    <string name="selectContractor">Please select the contractor:</string>
+    <string name="selectDate">Please select a date</string>
+    <string name="describeJob">Please give a short description of the job:</string>
+    <string name="submit">Submit</string>
+    <string name="clientWelcome">What would you like to do?</string>
+    <string name="viewJobs">View Jobs</string>
+    <string name="addJob">Add a new job request</string>
+    <string name="call">Call BIT</string>
+    <string name="email">Send an email to BIT</string>
+    <string name="website">Visit the BIT website</string>
+    <string name="jobDetails">View Job Details</string>
+    <string name="sortJobs">Sort by client name</string>
+    <string name="sortJobsDate">Sort by due date</string>
+    <string name="goBack">Go Back</string>
+    <string name="markComplete">Mark Job as Completed</string>
+    <string name="sms">Send SMS for start time</string>
+    <string name="viewMap">View Map</string>
+    <string name="camera">Take a picture of your repair</string>
+</resources>

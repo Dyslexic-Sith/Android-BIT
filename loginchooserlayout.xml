@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <ImageView
+            android:src="@drawable/bitserviceslogo"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/imageView"/>
+    <Button
+            android:text="@string/clientLogin"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnClient"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="154dp"
+            android:textColor="@android:color/white"
+            android:background="@color/bitBlue"
+    />
+    <Button
+            android:text="@string/contractorLogin"
+            android:layout_width="155dp"
+            android:layout_height="47dp"
+            android:id="@+id/btnContractor"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="71dp"
+            android:textColor="@android:color/white"
+            android:background="@color/bitBlue"/>
+</LinearLayout>
